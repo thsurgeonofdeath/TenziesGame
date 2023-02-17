@@ -64,7 +64,7 @@ export default function App() {
     ))
     
     return (
-        <main className="">
+        <main>
             {tenzies && <Confetti />}
             <h1 className="title">Tenzies</h1>
             <p className="instructions">Roll until all dice are the same. 

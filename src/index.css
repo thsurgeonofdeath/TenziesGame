@@ -3,23 +3,27 @@
 }
 
 body {
-  margin: 0;
   background-color: #0B2434;
-  padding: 20px;
-  font-family: 'Karla', sans-serif;
-  position: absolute;
-  display: flex;
+    /* padding: 20px; */
+    font-family: 'Karla', sans-serif;
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 main {
   background-color: #F5F5F5;
   height: 400px;
   max-width: 800px;
+  margin: auto;
   border-radius: 5px;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
